@@ -14,10 +14,10 @@ function Maze(width, height) {
 	var x, y;
 	for(x = 1; x <= width; x++) {
 		this.spaces[x] = [];
-	}
 
-	for(y = 1; y <= height; y++) {
-		this.spaces[x][y] = '(' + x + ',' + y + ')';
+		for(y = 1; y <= height; y++) {
+			this.spaces[x][y] = '(' + x + ',' + y + ')';
+		}
 	}
 }
 
